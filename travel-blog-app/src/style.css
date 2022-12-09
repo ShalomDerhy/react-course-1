@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Bahnschrift;
+}
+
+header {
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.blogItem--con {
+    display: flex;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+.blogItem--img {
+    width: 12rem;
+    height: 15rem;
+    border-radius: 1rem;
+}
+
+.blogItem--text-con {
+    margin-left: 2rem;
+}
